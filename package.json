@@ -1,0 +1,27 @@
+{
+  "name": "eslint-config-enobufs",
+  "version": "1.0.0",
+  "description": "ESLint shareable config for the enobufs' projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:enobufs/eslint-config-enobufs.git"
+  },
+  "keywords": [
+    "eslint",
+    "enobufs"
+  ],
+  "author": "enobufs",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "lodash": "^4.17.4",
+    "mocha": "^3.2.0"
+  },
+  "peerDependencies": {
+    "eslint": ">= 3.0.0"
+  }
+}
